@@ -1,0 +1,66 @@
+.boxes {
+    border: none;
+
+}
+
+.container1 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+
+}
+.container2 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+
+}
+
+#name {
+    float: right;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#student {
+    font-size: 15px;
+    color: rgb(59, 59, 246);
+}
+
+#link {
+    text-decoration: none;
+    color: rgb(59, 59, 246)
+}
+
+#img {
+    height: 295px;
+    padding: 4%;
+
+}
+
+#box2 {
+    background-color: rgb(64, 61, 61);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(222, 228, 234);
+    padding: 4%;
+    /* display: block; */
+    
+    
+
+}
+
+#box1 {
+    background-color: rgb(64, 61, 61);
+    color: rgb(222, 228, 234);
+}
+
+#box3 {
+    font-size: small;
+    background-color: rgb(64, 61, 61);
+    color: rgb(222, 228, 234);
+    padding: 4%;
+    /* align-self: self-end; */
+   /* flex-basis: 500px;
+    */
+}
