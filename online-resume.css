@@ -5,16 +5,12 @@
 
 .container1 {
     display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
 
 }
-.container2 {
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
 
-}
 
 #name {
     float: right;
@@ -34,8 +30,10 @@
 }
 
 #img {
-    height: 295px;
+    height: 180px;
     padding: 4%;
+    object-fit: cover;
+    border-radius: 15%;
 
 }
 
@@ -44,8 +42,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(222, 228, 234);
     padding: 4%;
-    /* display: block; */
-    
+    width: 22.1%;
+    /* display: block;
+     */
+     
     
 
 }
@@ -56,11 +56,18 @@
 }
 
 #box3 {
-    font-size: small;
+    font-size: 16px;
     background-color: rgb(64, 61, 61);
     color: rgb(222, 228, 234);
-    padding: 4%;
+    padding: 1%;
     /* align-self: self-end; */
    /* flex-basis: 500px;
     */
+    width: 54%;
+}
+
+#box4 {
+    background-color: rgb(64, 61, 61);
+    color: rgb(222, 228, 234);
+    align-self: ;
 }
